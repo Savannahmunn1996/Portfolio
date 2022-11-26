@@ -1,0 +1,66 @@
+ {
+  body {
+    background-color: rgb(184, 173, 193);
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+#name {
+  width: 350px;
+  padding: 10px;
+  border: 6px dashed rgb(101, 101, 206);
+  border-radius: 10px;
+  background-color: honeydew;
+}
+
+h1 {
+  color: darkmagenta;
+}
+h2 {
+  color: darkmagenta;
+}
+
+h3 {
+  color: blueviolet;
+}
+
+.aboutMe {
+  width: 750px;
+  padding: 10px;
+  border: 12px dashed rgb(101, 101, 206);
+  border-radius: 10px;
+  background-color: honeydew;
+  flex-wrap: wrap;
+}
+
+.work {
+  width: 750px;
+  padding: 10px;
+  border: 12px dashed rgb(101, 101, 206);
+  border-radius: 10px;
+}
+
+.ContactMe {
+  width: 750px;
+  padding: 10px;
+  border: 12px dashed rgb(101, 101, 206);
+  border-radius: 10px;
+  background-color: honeydew;
+  flex-wrap: wrap;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  flex: 0 1 24%;
+  width: 80px;
+  padding: 10px;
+  border: 6px dashed rgb(101, 101, 206);
+  border-radius: 10px;
+  background-color: honeydew;
+}
