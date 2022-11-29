@@ -6,15 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
+
+
   </head>
   <body class="wrapper">
     <main class="page">
-      <div id="top">
-        <div id="name"><h1>Savannah Mercedes Munn</h1></div>
-        <h3 id="talent">A Talented Software Developer</h3>
+      <ul>
+        <li><a style="text-decoration:none" href="#A">About Me</li>
+        <li><a style="text-decoration:none" href="#B"> Work</li>
+        <li><a style="text-decoration:none" href="#c" >Contact Me</li>
+      </ul>
+      <div class="top">
+        <div class="name sectionBackground">
+          <h1 class="theName">Savannah Mercedes Munn</h1>
+        </div>
+        <img class="img" src="./9D3F3B94-3623-4315-B70E-C140F3EC1C2F.JPG" />
       </div>
+      <h3 id="talent">A Talented Software Developer</h3>
       <hr />
-      <div class="aboutMe">
+      <div style="text-decoration:none" id="A" class="aboutMe sectionBackground">
         <h2>About Me</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -43,32 +53,43 @@
         </p>
       </div>
 
-      <div class="centered">
+      <div id="B" class="work">
         <h2>Work</h2>
         <section class="cards">
-          <article class="card">
-            <p>content for card one</p>
+          <article class="card sectionBackground">
+            <p>
+              <a
+                href="https://github.com/Savannahmunn1996/multipleChoiceProject"
+              >multiple Choice Project(In progress)
+            </p>
           </article>
           <!-- /card-one -->
 
-          <article class="card">
-            <p>content for card two</p>
+          <article class="card sectionBackground">
+            <p><a href="https://github.com/Savannahmunn1996/challenge-2">My second Portfolio</p>
           </article>
           <!-- /card-two -->
 
-          <article class="card">
-            <p>content for card three</p>
+          <article class="card sectionBackground">
+            <p><a href="https://replit.com/@Savannahmunn199/the-cheatsheet#style.css">Css Snippet Cheatsheet</p>
           </article>
           <!-- /card-three -->
 
-          <article class="card">
-            <p>content for card four</p>
+          <article class="card sectionBackground">
+            <p><a href="https://replit.com/@Savannahmunn199/Portfolio#style.css">My First Portfolio</p>
           </article>
           <!-- /card-four -->
         </section>
       </div>
       <hr />
-      <div class="ContactMe"><h2>Contact Me</h2></div>
+      <div id="c" class="contactMe sectionBackground">
+        <h2>Contact Me:</h2>
+        <p>
+          <a href="mailto:savannahmunn1996@gmail.com"
+            >savannahmunn1996@gmail.com</a
+          >
+        </p>
+      </div>
     </main>
   </body>
 </html>

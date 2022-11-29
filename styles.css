@@ -1,32 +1,17 @@
-.wrapper {
+:root {
+  --mainColor: rgb(184, 173, 193);
+}
+ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
-.wrapper > * {
-  padding: 20px;
+li {
+  display: inline;
+  justify-content: space-evenly;
 }
-
-.wrapper {
-  background-color: rgb(184, 173, 193);
-}
-
-.page {
-  flex-grow: 1;
-}
-
-#name {
-  width: 350px;
-  padding: 10px;
-  border: 6px dashed rgb(101, 101, 206);
-  border-radius: 10px;
-  background-color: honeydew;
-}
-
-h1 {
-  color: darkmagenta;
-}
+h1,
 h2 {
   color: darkmagenta;
 }
@@ -35,39 +20,79 @@ h3 {
   color: blueviolet;
 }
 
-.aboutMe {
-  width: 750px;
-  padding: 10px;
-  border: 12px dashed rgb(101, 101, 206);
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: var(--mainColor);
+}
+
+.page {
+  flex-grow: 1;
+  width: 100vw;
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.name {
+  width: 40%;
+  height: 30%;
+  border: 6px dashed rgb(101, 101, 206);
+}
+
+.theName {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#talent {
+  display: flex;
+  justify-content: center;
+}
+.img {
+  height: 200px;
+  border: 6px dashed rgb(101, 101, 206);
+  border-radius: 10px;
+}
+
+.sectionBackground {
   border-radius: 10px;
   background-color: honeydew;
+  padding: 10px;
+}
+
+.aboutMe {
+  width: 70%;
+  border: 12px dashed rgb(101, 101, 206);
 }
 
 .work {
-  width: 750px;
-  padding: 10px;
-  border: 12px dashed rgb(101, 101, 206);
-  border-radius: 10px;
-}
-
-.ContactMe {
-  width: 750px;
-  padding: 10px;
-  border: 12px dashed rgb(101, 101, 206);
-  border-radius: 10px;
-  background-color: honeydew;
+  width: 60%;
 }
 
 .cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+
+  justify-content: space-evenly;
 }
 
 .card {
   width: 150px;
-  padding: 10px;
   border: 6px dashed rgb(101, 101, 206);
-  border-radius: 10px;
-  background-color: honeydew;
+  margin: 5px;
+}
+
+.card:hover {
+  width: 200px;
+  border: 6px dashed rgb(87, 210, 87);
+}
+
+.contactMe {
+  width: 70%;
+  border: 12px dashed rgb(101, 101, 206);
 }
