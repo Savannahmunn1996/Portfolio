@@ -1,6 +1,5 @@
 # challenge-2
 
-
 ## Description
 
 This is a portfolio layout with some interactive features. I utilized html and Css for this project and followed the guidelines below.
