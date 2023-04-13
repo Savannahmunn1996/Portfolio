@@ -24,10 +24,13 @@ THEN I am presented with a responsive layout that adapts to my viewport
 - Hover function to increase size of work sample links
 - Links navigate to my other projects
 - Contact email link enables mailing option
+![Screen Shot 2023-04-13 at 2 03 19 PM (2)](https://user-images.githubusercontent.com/113401054/231882409-98256e44-26be-4a63-9879-e5a911dedce0.png)
+
 
 ## Usage
 
 Visit deployed link
+https://savannahmunn1996.github.io/Portfolio/
 
 ## Contact
 Savannah Mercedes is a Software developer with a passion for education and technology. Email: savannahmunn1996@gmail.com
