@@ -1,4 +1,4 @@
-# challenge-2
+# Portfolio
 
 ## Description
 
@@ -25,3 +25,10 @@ THEN I am presented with a responsive layout that adapts to my viewport
 - Hover function to increase size of work sample links
 - Links navigate to my other projects
 - Contact email link enables mailing option
+
+## Usage
+
+Visit deployed link
+
+## Contact
+Savannah Mercedes is a Software developer with a passion for education and technology. Email: savannahmunn1996@gmail.com
