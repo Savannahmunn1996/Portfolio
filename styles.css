@@ -43,13 +43,16 @@ h2, h3{
 .top {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .name {
-  width: 40%;
-  height: 30%;
+  width: 20%;
+  height: 20%;
   border: 6px double whitesmoke;
+  margin-top: 50px;
+  margin-right:20px ;
+  text-align: center;
 }
 
 .theName {
@@ -62,15 +65,17 @@ h2, h3{
   justify-content: center;
 }
 .img {
-  height: 200px;
+  height: 140px;
   border: 6px double whitesmoke;
-  border-radius: 10px;
-  
+  border-radius: 50% 20% / 10% 40%;;
+  margin-top: 30px;
+  margin-right: 120px;
+  margin-left: 20px;
   box-shadow: 5px 10px rgb(44, 44, 79);
 }
 
 .sectionBackground {
-  border-radius: 10px;
+  border-radius: 50% 20% / 10% 40%;;
   background-color: rgb(72, 142, 174);
   padding: 10px;
   
