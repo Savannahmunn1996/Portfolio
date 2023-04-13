@@ -1,24 +1,32 @@
 :root {
-  --mainColor: rgb(184, 173, 193);
+  --mainColor: rgb(75, 123, 143);
 }
+
+a{
+  color: whitesmoke;
+}
+
+
 ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+background-color:rgb(44, 44, 79);
 }
 
 li {
   display: inline;
   justify-content: space-evenly;
+
 }
-h1,
-h2 {
-  color: darkmagenta;
+p, h1,
+h2, h3{
+  color: whitesmoke;
 }
 
-h3 {
-  color: blueviolet;
-}
+/* h3 {
+  color: whitesmoke;
+} */
 
 .wrapper {
   display: flex;
@@ -41,7 +49,7 @@ h3 {
 .name {
   width: 40%;
   height: 30%;
-  border: 6px dashed rgb(101, 101, 206);
+  border: 6px double whitesmoke;
 }
 
 .theName {
@@ -55,44 +63,67 @@ h3 {
 }
 .img {
   height: 200px;
-  border: 6px dashed rgb(101, 101, 206);
+  border: 6px double whitesmoke;
   border-radius: 10px;
+  
+  box-shadow: 5px 10px rgb(44, 44, 79);
 }
 
 .sectionBackground {
   border-radius: 10px;
-  background-color: honeydew;
+  background-color: rgb(72, 142, 174);
   padding: 10px;
+  
 }
 
 .aboutMe {
   width: 70%;
-  border: 12px dashed rgb(101, 101, 206);
+  border: 12px double whitesmoke;
+  text-align: center;
+  margin: 0 auto;
+  
+}
+.section{
+  align-items: center;
+  justify-content: center;
 }
 
 .work {
   width: 60%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .cards {
   display: flex;
   flex-wrap: wrap;
-
+align-items: center;
   justify-content: space-evenly;
 }
 
 .card {
   width: 150px;
-  border: 6px dashed rgb(101, 101, 206);
-  margin: 5px;
+  border: 6px double whitesmoke;
 }
 
 .card:hover {
   width: 200px;
-  border: 6px dashed rgb(87, 210, 87);
+  border: 6px double rgb(121, 213, 204);
 }
 
 .contactMe {
-  width: 70%;
-  border: 12px dashed rgb(101, 101, 206);
+  width: 95%;
+  border: 12px double whitesmoke;
+  text-align: center;
+}
+
+.cardImg{
+  position: relative;
+  width:80px
+}
+.cardImg1{
+  position: relative;
+  width:125px
 }
