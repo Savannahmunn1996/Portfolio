@@ -21,7 +21,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ## Features
 
 - An interactive navigation bar
-- Flexbox responsive design
 - Hover function to increase size of work sample links
 - Links navigate to my other projects
 - Contact email link enables mailing option
